@@ -24,7 +24,7 @@ setTimeout(primaryFunction, 2000);
 
 // Callback function
 // trail 1
-function getUserData(callback){
+/* function getUserData(callback){
     var name;
     var age;
     setTimeout((name, age)=>{
@@ -32,18 +32,31 @@ function getUserData(callback){
         age = 34
         return name, age;
     }, 1500, callback(name, age));
-
-
 }
 
 
 function userDetails(name, age){
     console.log("UserName: " + name + " UserAge: " + age);
 }
-getUserData(userDetails);
+getUserData(userDetails); */
 
 
+// trail 3 is working well.
 
+function getUserData(callback){
+    var name = "Ramesh";
+    var age = 34;
+    callback(name, age)
+}
+
+function userDetails(name, age){
+    console.log("UserName: " + name + " UserAge: " + age);
+}
+
+let results =  () => {
+    getUserData(userDetails);
+}
+setTimeout(results, 3000);
 
 
 
