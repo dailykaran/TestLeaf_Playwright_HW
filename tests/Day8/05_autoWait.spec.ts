@@ -26,7 +26,7 @@ test('Auto waiting', async ({page})=>{
     // Wait for Text Change
     const cardToselect2 = page.locator('.card').filter({hasText: "Wait for Text Change"});
     await cardToselect2.getByRole('button').filter({hasText: "Click"}).click();
-    await expect(cardToselect2.getByRole('button').filter({hasText: "Did you notice?"})).toBeVisible({timeout: 7000});
+    await expect(cardToselect2.getByRole('button').filter({hasText: "Did you notice?"})).toBeVisible();
 })
 
 test("Wait for Clickability", async ({page}) => {
