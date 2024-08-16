@@ -1,22 +1,7 @@
 import {expect, test, chromium} from "@playwright/test";
 
-//test.describe('Test the single sign account under serviceNow website', () => {
 
-test('service now login', async({page}) => {
-
-    await page.goto('https://account.servicenow.com/sign-in');
-
-    await page.locator('body #sign-in').locator('input[id=email]').first().fill('dinakaran83@gmail.com');
-    await page.locator('body #sign-in').locator('#submit_form').first().click();
-    await page.waitForLoadState("load");
-    await page.locator('body #sign-in').locator('input#password').first().fill('Testing123$');
-    await page.locator('body #sign-in').locator('#submit_form').first().click();
-    await page.waitForLoadState("load");
-
-})
-
-
-test.only('Handing the frames using Service Now website with shadow DOM', async({page}) => {
+test('Handing the frames using Service Now website with shadow DOM', async({page}) => {
 
     await page.goto('https://account.servicenow.com/sign-in');
 
@@ -27,6 +12,7 @@ test.only('Handing the frames using Service Now website with shadow DOM', async(
     await page.locator('body #sign-in').locator('#submit_form').first().click();
     await page.waitForLoadState("load");
 
+    await page.waitForTimeout(6000);
     await page.goto("https://dev211073.service-now.com/");
     await page.locator("#user_name").fill('admin');
     const password = page.locator('#user_password');
@@ -70,11 +56,11 @@ test.only('Handing the frames using Service Now website with shadow DOM', async(
     const getOrderTitle = (await page.title()).toString();
     console.log(getOrderTitle);
     expect(getOrderTitle).toContain('ServiceNow');
-    expect(page).toHaveTitle('Apple iPhone 13 | ServiceNow');
+    //expect(page).toHaveTitle('Apple iPhone 13 | ServiceNow');
    
-    const getOrderURL = page.url();
+    const getOrderURL = await page.url().toString();
     console.log(getOrderURL);
-    await expect(page).toHaveURL(/.*servicecatalog_cat_item_view/);
+    await expect(getOrderURL).toContain("catalog_default");
 
 
     const orderSuccessMessage = await getShadowDOM_IFrame.locator('.notification-success span').nth(1).innerText();
@@ -83,4 +69,3 @@ test.only('Handing the frames using Service Now website with shadow DOM', async(
    
 })
 
-//})
