@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "ef9bbf80-41b5-4edb-a7fd-cf30e7846ebf",
+		"name": "HTTP_Methods",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20424905"
+	},
+	"item": [
+		{
+			"name": "postRequest",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Testing@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"short_description\": \"Create a new change request\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev211073.service-now.com/api/now/table/incident",
+					"protocol": "https",
+					"host": [
+						"dev211073",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetRequestMethod",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Testing@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev211073.service-now.com/api/now/table/incident/910e55d247c85610ffcbb71f316d43aa",
+					"protocol": "https",
+					"host": [
+						"dev211073",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident",
+						"910e55d247c85610ffcbb71f316d43aa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutRequestMethod",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Testing@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"subcategory\": \"Email\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev211073.service-now.com/api/now/table/incident/910e55d247c85610ffcbb71f316d43aa",
+					"protocol": "https",
+					"host": [
+						"dev211073",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident",
+						"910e55d247c85610ffcbb71f316d43aa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PatchRequestMethod",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Testing@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"short_description\": \"Create a new change request. modified the change request\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev211073.service-now.com/api/now/table/incident/910e55d247c85610ffcbb71f316d43aa",
+					"protocol": "https",
+					"host": [
+						"dev211073",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident",
+						"910e55d247c85610ffcbb71f316d43aa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteRequestMethod",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Testing@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev211073.service-now.com/api/now/table/incident/910e55d247c85610ffcbb71f316d43aa",
+					"protocol": "https",
+					"host": [
+						"dev211073",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident",
+						"910e55d247c85610ffcbb71f316d43aa"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
