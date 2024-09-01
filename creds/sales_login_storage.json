@@ -1,0 +1,325 @@
+{
+  "cookies": [
+    {
+      "name": "CookieConsentPolicy",
+      "value": "0:0",
+      "domain": "login.salesforce.com",
+      "path": "/",
+      "expires": 1756666640.542157,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LSKey-c$CookieConsentPolicy",
+      "value": "0:0",
+      "domain": "login.salesforce.com",
+      "path": "/",
+      "expires": 1756666640.542428,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "BrowserId",
+      "value": "2H4R7GfKEe-N-fNnYWZRHw",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1756666640.54245,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "session",
+      "value": "1725130641647",
+      "domain": "login.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "webact",
+      "value": "%7B%22l_vdays%22%3A-1%2C%22l_visit%22%3A0%2C%22session%22%3A1725130642201%2C%22l_search%22%3A%22%22%2C%22l_dtype%22%3A%22%22%2C%22l_page%22%3A%22SFDC%3Aus%3Alogin%22%2C%22l_page_url%22%3A%22https%3A%2F%2Fc.salesforce.com%2Flogin-messages%2Fpromos.html%22%2C%22counter%22%3A0%2C%22pv%22%3A1%2C%22f_visit%22%3A1725130642201%2C%22seg%22%3A%22non-customer%3Aus%22%7D",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1756666641,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "gtm_session_start",
+      "value": "1725130642696",
+      "domain": "c.salesforce.com",
+      "path": "/",
+      "expires": 1725132442,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sfdcConsent",
+      "value": "1,3,4",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1756666642,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Sun+Sep+01+2024+00%3A27%3A23+GMT%2B0530+(India+Standard+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b2de138a-bcde-45ed-a6a3-53993512d357&interactionCount=0&landingPath=https%3A%2F%2Fc.salesforce.com%2Flogin-messages%2Fpromos.html&groups=1%3A1%2C3%3A1%2C4%3A1",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1756666643,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "inst",
+      "value": "APP_dM",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rememberUn",
+      "value": "false",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1730314643.091291,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "com.salesforce.LocaleInfo",
+      "value": "in",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1730314643.09132,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "oinfo",
+      "value": "c3RhdHVzPUZSRUUmdHlwZT0zJm9pZD0wMERkTTAwMDAwOFN6NVo=",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1730314643.091335,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_S6WMKB0ZK3",
+      "value": "GS1.1.1725130643.1.0.1725130643.0.0.0",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1759690644.185187,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.504035315.1725130644",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1759690644.201396,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_ESNS60PH6F",
+      "value": "GS1.1.1725130643.1.0.1725130643.0.0.0",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1759690644.200782,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "ecgroupinternational-dev-ed.develop.my.salesforce.com",
+      "path": "/",
+      "expires": 1756666644.413751,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "LSKey-c$CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "ecgroupinternational-dev-ed.develop.my.salesforce.com",
+      "path": "/",
+      "expires": 1756666644.413811,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sfdc_lv2",
+      "value": "KxG83HqwWPkSg461c27Rt4dMI3cOz0cpKSlWT8jCE/O6qioWBG5eNSz19slwxgX6Q=",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1756666644.413839,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "disco",
+      "value": "dM:00DdM000008Sz5Z:005dM000005NSeM:3",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "autocomplete",
+      "value": "1",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1730314644.413919,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid",
+      "value": "00DdM000008Sz5Z!AQEAQBoqPv0E_UAOY_p1HBke80uGT8tmUtLpXbqky3sLmto.Y0F2XmBdhnooruhWeR7r4P.iYtde3biBmWTnstMO43OnR6vt",
+      "domain": "ecgroupinternational-dev-ed.develop.my.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid_Client",
+      "value": "M000005NSeMM000008Sz5Z",
+      "domain": "ecgroupinternational-dev-ed.develop.my.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "clientSrc",
+      "value": "49.37.201.66",
+      "domain": "ecgroupinternational-dev-ed.develop.my.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "oid",
+      "value": "00DdM000008Sz5Z",
+      "domain": "ecgroupinternational-dev-ed.develop.my.salesforce.com",
+      "path": "/",
+      "expires": 1756666644.414,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "ecgroupinternational-dev-ed.develop.file.force.com",
+      "path": "/",
+      "expires": 1756666645.529064,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "LSKey-c$CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "ecgroupinternational-dev-ed.develop.file.force.com",
+      "path": "/",
+      "expires": 1756666645.52919,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "BrowserId",
+      "value": "22sft2fKEe-V7tHZR3uAlg",
+      "domain": ".force.com",
+      "path": "/",
+      "expires": 1756666645.529237,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid",
+      "value": "00DdM000008Sz5Z!AQEAQEDWW20oIBPiKT5aXp6F0HzDBqtAlMp_U7dQI_pNuS4Bihko7BcLuSQF3Hacc_ssr2Y2jqBGvkMT2iu27opxzGcRjreQ",
+      "domain": "ecgroupinternational-dev-ed.develop.file.force.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid_Client",
+      "value": "M000005NSeMM000008Sz5Z",
+      "domain": "ecgroupinternational-dev-ed.develop.file.force.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "clientSrc",
+      "value": "49.37.201.66",
+      "domain": "ecgroupinternational-dev-ed.develop.file.force.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "inst",
+      "value": "APP_dM",
+      "domain": ".force.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://c.salesforce.com",
+      "localStorage": [
+        {
+          "name": "webactls",
+          "value": "{\"chat\":0,\"kxsfdc\":{\"segs\":\"\"},\"l_cloud\":\"No Cloud\"}"
+        }
+      ]
+    }
+  ]
+}

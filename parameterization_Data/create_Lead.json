@@ -1,0 +1,17 @@
+{
+	"Info":{
+		"companyName": "TestCloud",
+		"firstName": "TestUser",
+		"lastName": "25",
+		"salutation": "Mr",
+		"source": "Employee",
+		"marketingCampaign": "Demo Marketing Campaign",
+		"industry": "General Services",
+		"preferredCurrency": "INR - Indian Rupee",
+		"department": "Telecommunication"
+	},
+	"PrimaryAddress":{
+		"stateProvince": "TAMILNADU",
+		"country": "India"
+	}
+}
